@@ -27,8 +27,7 @@ const EditTodoItemDialog = (props) => {
           color="primary"
           onClick={() =>
             props.onEditTodoItem(props.index, props.todoInputTextValue)
-          }
-          color="primary">
+          }>
           Edit
         </Button>
       </DialogActions>
